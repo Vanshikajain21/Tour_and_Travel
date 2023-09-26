@@ -1,0 +1,111 @@
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+body{
+    background: linear-gradient(100deg,rgb(78, 187, 230),white);
+}
+.img{
+    border-color: aliceblue;
+    padding-left: 100px;
+   border-radius: 1000px;
+}
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+    text-align:  center;
+    color: blue;
+}
+.style{
+    font-size: x-large;
+    font-weight: 800;
+    text-align: center ;
+    color: blue;
+
+}
+.column1{
+    padding: 100px;
+    background: skyblue;
+    box-shadow: 100px;
+  
+}
+
+.button{
+    padding: 30px;
+    background: white;
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+   
+}
+
+.column{
+    display:flex;
+       padding : 100px;
+       
+}
+
+.column2{
+    padding: 100px;
+    background: linear-gradient(60deg,rgb(78, 187, 230),white);
+    
+}
+.column3{
+    padding: 100px;
+    background: linear-gradient(60deg,rgb(116, 210, 247),white);
+   
+}
+.column .column1 .link .a{
+   
+    text-align: center;
+
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #5dc6e9;
+    background-color: #f1f1f1;
+    width: 50;
+  }
+
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 306px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #64cbed;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+   /* display: none;*/
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+  }
+  
+  /* Fade in tabs*/
+   @-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
